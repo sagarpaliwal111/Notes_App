@@ -14,8 +14,9 @@ data class Note(
 
     @ColumnInfo(name = "Amount")
     var Amount:String
-
-) {
+)
+{
     @PrimaryKey(autoGenerate = true)
     var id = 0
 }
+
